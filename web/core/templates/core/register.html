@@ -1,0 +1,49 @@
+<html>
+    <head>
+    </head>
+        <body>
+            <div class="container my-3">
+                <h3>REGISTRATIONS FORM</h3>
+                <form action="" method="post">
+                    {% csrf_token %}
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name='email' placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="name">First_name</label>
+                <input type="text" class="form-control" id="first_name" name='first_name' placeholder="Enter first_name">
+              </div>
+            
+                <div class="form-group">
+                <label for="name">Last_name</label>
+                <input type="text" class="form-control" id="last_name" name='last_name' placeholder="Enter last_name">
+              </div>
+              <div class="form-group">
+                <label for="name">Mobile No</label>
+                <input type="text" class="form-control" id="mobile no" name='mobile_no' placeholder="Enter your mobile no">
+              </div>
+
+              <div class="form-group">
+                <label for="name">Password</label>
+                <input type="text" class="form-control" id="password" name='password' placeholder="Enter password">
+              </div>
+              <div class="form-group">
+                <label for="name">Confirm Password</label>
+                <input type="text" class="form-control" id="confirm password" name='con_password' placeholder="confirm password">
+              </div>
+              <div class="form-group">
+                <label for="name">pincode</label>
+                <input type="text" class="form-control" id="pincode" name='pincode' placeholder="Enter pincode">
+              </div>
+    
+                    <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+            
+            
+            
+            </div>
+
+        </body>
+    
+</html>
